@@ -1,0 +1,20 @@
+  <script>
+    // Readme
+    // 1. Replace mystr with any preferred string.
+    // 2. Save it.
+    // 3. Run in a web browser.
+     class MyHashTable {
+  constructor(str) {
+    this.item={};
+
+    this.item[str.substr(0, 2)]=  str
+
+  }
+}
+var mystr="Stella";
+var mykey=mystr.substr(0,2)
+str1 = new MyHashTable(mystr)
+document.write("Key " + mykey + " => "+str1.item[mykey]);
+console.log(str1.item)
+
+  </script>
